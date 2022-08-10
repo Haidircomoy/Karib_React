@@ -20,6 +20,10 @@ const App = () => {
       <div>
         <Navbar />
         <div className='intro' id='intro'>
+          <div className='text-center'>
+              <h1>SELAMAT DATANG DI KARIB</h1>
+              <h3>BERSAHABAT DALAM TAAT</h3>
+          </div>
         </div>
         <div id='tentangkami' className='text-center'>
             <h1>Tentang Kami</h1>
