@@ -267,6 +267,11 @@ html,body {
     box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 6%);
 }
 
+#Bisnis {
+    background-image: linear-gradient(#367052, #073341);
+    color: whitesmoke;
+}
+
 .prokerdetail {
     width: 95%;
     margin: auto;
