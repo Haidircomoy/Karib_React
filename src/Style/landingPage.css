@@ -1,8 +1,7 @@
-.MyBg {
-    height: 100vh;
-    background-color: url('../assets/image/Logo.png');
-    background-size: cover;
-    background-position: center;
+html,body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .Logo {
@@ -10,8 +9,16 @@
     margin-right: 32px;
 }
 
+.dropdown-item {
+    color: antiquewhite !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-image: linear-gradient(to right, #367052, #073341) !important;
+}
+
 .navbar-nav .dropdown-menu{
-    background-color: dimgray;
+    background-image: linear-gradient(#367052, #073341);
 }
 
 .bg-navbar {
@@ -26,6 +33,10 @@
     width: 100% !important;
     flex-direction: row;
     justify-content: end !important;
+}
+
+.nav-link {
+    color: whitesmoke !important;
 }
 
 .Logo img {
@@ -43,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#367052, #073341);;
+    background-image: linear-gradient(#367052, #073341);
     height: 100%; 
 
     /* Center and scale the image nicely */
@@ -57,9 +68,11 @@
 
 #tentangkami {
     padding: 32px 0px;
+    background-color: #F3F6F9;
 }
 #aktivitas {
     padding: 32px 0px;
+    background-image: linear-gradient(#367052, #073341);
 }
 
 .cardActivity {
@@ -67,6 +80,7 @@
     padding: 8px !important;
     margin-right: 16px;
     margin-top: 16px !important;
+    background-color: honeydew !important;
 }
 
 .cardImage {
@@ -96,6 +110,7 @@
 .VisiMisi ul li{
     text-align: left !important;
     font-size: 14px;
+    color: antiquewhite;
 }
 
 .card{
@@ -144,12 +159,157 @@
     background-size: 80px;
 }
 
+.card-PI{
+    background-image: url(../assets/image/leadership.png);
+       background-repeat: no-repeat;
+     background-position: right;
+     background-size: 80px;
+ }
+
+ .card-PI ul li {
+    text-align: left;
+ }
+
+ .card-PI2{
+    background-image: url(../assets/image/receptionist.png);
+       background-repeat: no-repeat;
+     background-position: right;
+     background-size: 80px;
+ }
+
+ .card-PI2 ul li {
+    text-align: left;
+ }
+ 
+ .ketua {
+    margin-right: 16px;
+    margin-top: 10px;
+    padding: 16px 0px;
+ }
+
+ .ketua :hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 6%);
+ }
+
+ .ketua img {
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ .wakil {
+    margin-right: 16px;
+    margin-top: 10px;
+    padding: 16px 0px;
+ }
+
+ .wakil :hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 6%);
+
+ }
+
+ .wakil img {
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ .anggota {
+    margin-right: 16px;
+    margin-top: 10px;
+    padding: 16px 0px;
+ }
+
+ .anggota :hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 6%);
+}
+
+ .anggota img {
+    width: 100%;
+    border-radius: 10px;
+ }
+
 .card img{
     position: unset !important;
+}
+
+.Anggota-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.PI {
+    margin-right: 24px;
+}
+
+.cardPI {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.cardPI :last-child {
+    margin-right: 0px;
+}
+
+.cardPI img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cardPI :hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 6%);
+}
+
+.prokerdetail {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 24px 0px;
+}
+
+.proker1 {
+    display: flex;
+    padding: 16px 0px;
+}
+
+.prokerimage {
+    width: 59%;
+}
+
+.prokerDesc {
+    width: 59%;
+    padding: 0px 8px;
+}
+
+.prokerimage img {
+    width: 100%;
+    padding: 0px 8px;
+}
+
+.proker2 {
+    display: flex;
+    padding: 16px 0px;
 }
 
 @media(max-width: 990px){
   .card{
     margin: 20px;
-  }
+  }  
 } 
+
+@media(max-width: 460px){
+  .cardPI{
+    width: 60%;
+    margin-right: 0px;
+  }
+  .Anggota-section {
+    flex-direction: column;
+  }
+}

@@ -6,8 +6,13 @@ const cardMisi = (props) => {
             <div className="row">
                 <div>
                     <div className="card card-2">
-                    <h3>Ionic Native</h3>
-                    <p>A curated set of   ES5/ES6/TypeScript wrappers for plugins to easily add any native functionality to your Ionic apps.</p>
+                    <h3 className='text-center'>{props.title}</h3>
+                    <ul>
+                        <li>{props.misi1}</li>
+                        <li>{props.misi2}</li>
+                        <li>{props.misi3}</li>
+                        <li>{props.misi4}</li>
+                    </ul>
                     </div>
                 </div>
             </div>

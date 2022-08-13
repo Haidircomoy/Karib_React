@@ -6,8 +6,8 @@ const cardAbout =(props) => {
             <div className="row">
                 <div>
                     <div className="card card-3">
-                    <h3>Ionic Native</h3>
-                    <p>A curated set of   ES5/ES6/TypeScript wrappers for plugins to easily add any native functionality to your Ionic apps.</p>
+                        <p className="text-justify">{props.tentang1}</p>
+                        <p className="text-justify">{props.tentang2}</p>
                     </div>
                 </div>
             </div>

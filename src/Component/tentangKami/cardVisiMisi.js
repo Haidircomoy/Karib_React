@@ -6,8 +6,12 @@ const cardVisiMisi = (props) => {
             <div className="row">
                 <div>
                     <div className="card card-1">
-                    <h3>Ionic Native</h3>
-                    <p>A curated set of   ES5/ES6/TypeScript wrappers for plugins to easily add any native functionality to your Ionic apps.</p>
+                    <h3 className='text-center'>{props.title}</h3>
+                    <ul>
+                        <li>{props.li1}</li>
+                        <li>{props.li2}</li>
+                        <li>{props.li3}</li>
+                    </ul>
                     </div>
                 </div>
             </div>

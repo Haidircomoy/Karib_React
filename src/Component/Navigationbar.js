@@ -19,13 +19,13 @@ const Navigationbar = () => {
                     <Nav.Link href="#aktivitas">Aktivitas</Nav.Link>
                     <Nav.Link href="#PI">PI</Nav.Link>
                     <NavDropdown title="Divisi" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.2">
+                    <NavDropdown.Item href="#Bisnis">
                         Bisnis
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Media</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">PSDM</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Sosial</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Syiar</NavDropdown.Item>
+                    <NavDropdown.Item href="#Media">Media</NavDropdown.Item>
+                    <NavDropdown.Item href="#PSDM">PSDM</NavDropdown.Item>
+                    <NavDropdown.Item href="#Sosial">Sosial</NavDropdown.Item>
+                    <NavDropdown.Item href="#Syiar">Syiar</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="#hubungikami">Hubungi Kami</Nav.Link>
                 </ul>
