@@ -10,7 +10,7 @@ html,body {
 }
 
 .dropdown-item {
-    color: antiquewhite !important;
+    color: #000000 !important;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -18,11 +18,11 @@ html,body {
 }
 
 .navbar-nav .dropdown-menu{
-    background-image: linear-gradient(#367052, #073341);
+    background-color: #F3F6F9 !important;
 }
 
 .bg-navbar {
-    background-image: linear-gradient(to right, #367052, #073341) !important;
+    background-color: #F3F6F9 !important;
 }
 
 .navbar-nav {
@@ -36,7 +36,7 @@ html,body {
 }
 
 .nav-link {
-    color: whitesmoke !important;
+    color: #000000 !important;
 }
 
 .Logo img {
@@ -268,6 +268,7 @@ html,body {
 }
 
 #Bisnis {
+    padding : 32px 0px;
     background-image: linear-gradient(#367052, #073341);
     color: whitesmoke;
 }
@@ -314,7 +315,32 @@ html,body {
     width: 60%;
     margin-right: 0px;
   }
+  .bisnisdescription {
+    padding: 0px 16px;
+  }
   .Anggota-section {
     flex-direction: column;
+  }
+  .ketua {
+    margin : 0px 64px;
+  }
+  .wakil {
+    margin : 0px 64px;
+  }
+  .anggota {
+    margin : 0px 64px;
+  }
+  .prokerdetail{
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 16px;
+  }
+  .prokerimage {
+    width: 100%;
+  }
+  .prokerDesc {
+    width: 100%;
+    padding: 10px 16px;
   }
 }

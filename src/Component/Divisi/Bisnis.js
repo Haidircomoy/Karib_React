@@ -21,7 +21,7 @@ const Bisnis = () => {
     },[]);
     return (
         <div className='col-lg-10 m-auto'>
-            <p className='text-left'>
+            <p className='text-left bisnisdescription'>
             Divisi Ekonomi & Bisnis merupakan bagian dari Divisi KARIB (Keluarga Remaja Islam BSD) yang bergerak dan menciptakan kegiatan usaha melalui penjualan produk, marketing, serta edukasi mengenai bisnis. Tujuan dari Divisi Ekonomi dan Bisnis yaitu untuk mengembangkan nilai jual suatu produk/merk yang dimiliki oleh KARIB, dan membantu keuangan untuk kegiatan Dakwah KARIB.
             </p>
             <div className="Anggota-section col-lg-10 m-auto"  data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
@@ -54,14 +54,13 @@ const Bisnis = () => {
             </div>
             <div className='Proker col-lg-10 m-auto'>
                 <h3 className='text-center mt-4'>Program Kerja</h3>
-                <div>
+                <div data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
                     <div className='prokerdetail'>
                         <div className='prokerimage'>
                             <img src={proker1} alt='proker1' />
                         </div>
                         <div className='prokerDesc'>
                             <div>
-                                <p>GETE adalah program pengembangan bisnis KARIB di semua bidang dengan cara mengajak para pengusaha untuk Kerjasama dengan KARIB. Tujuannya untuk meningkatkan ekonomi masyarakat terutama Internal KARIB serta mengenalkan KARIB ke masyarakat luar.</p>
                                 <p>Jobsdesk</p>
                                 <ul>
                                     <li>Mencari Partner Bisnis.</li>
@@ -73,15 +72,54 @@ const Bisnis = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
                     <div className='prokerdetail'>
                         <div className='prokerDesc'>
                             <div>
-                                <p>GETE adalah program pengembangan bisnis KARIB di semua bidang dengan cara mengajak para pengusaha untuk Kerjasama dengan KARIB. Tujuannya untuk meningkatkan ekonomi masyarakat terutama Internal KARIB serta mengenalkan KARIB ke masyarakat luar.</p>
+                                <p>
+                                Suatu Produk yang dimiliki KARIB berupa Apparel dan Merchandise dengan Design Original dan kualitas bahan yang terbaik. 
+                                Tujuan di buat nya KARIB MERCH agar masyarakat tahu bahwa KARIB memiliki produk unggulan yang dapat diterima oleh publik, selain digunakan sebagai outfit, produk ini juga bisa digunakan sebagai media untuk menyampaikan pesan positif bagi yang melihatnya. Kalian dapat mengunjungi karib merchandise 
+                                <a href='https://instagram.com/karib.merch?igshid=YmMyMTA2M2Y=' target='_blank'> disini</a>
+                                </p>
                             </div>
                         </div>
                         <div className='prokerimage'>
-                            <img src={proker1} alt='proker1' />
+                            <img src={proker2} alt='proker1' />
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div className='prokerdetail'>
+                        <div className='prokerimage'>
+                            <img src={proker3} alt='proker1' />
+                        </div>
+                        <div className='prokerDesc'>
+                            <div>
+                                <p>Jobsdesk</p>
+                                <ul>
+                                    <li>Membuat Design dan Konten Produk yang ingin di publikasikan.</li>
+                                    <li>Mencari vendor bahan produk.</li>
+                                    <li>Melakukan Pemasaran melalui media online / offline (open bazar).</li>
+                                    <li>Membuat Laporan Penjualan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div className='prokerdetail'>
+                        <div className='prokerDesc'>
+                            <div>
+                                <p>Jobsdesk</p>
+                                <ul>
+                                    <li>mencari mentor bisnis sesuai kurikulum yang di ajarkan.</li>
+                                    <li>Mengadakan kelas/mentoring tentang dunia Bisnis</li>
+                                </ul>
+                                <p>Waktu Pelaksanaan : Online/Offline.</p>
+                            </div>
+                        </div>
+                        <div className='prokerimage'>
+                            <img src={proker4} alt='proker1' />
                         </div>
                     </div>
                 </div>
