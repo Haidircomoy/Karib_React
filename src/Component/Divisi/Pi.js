@@ -20,29 +20,31 @@ const Pi = () => {
           <div>
             <h3>Anggota</h3>
             <p>Kenalan dulu yuk sama anggota-anggota nya Pengurus Internal KARIB</p>
+          
             <div className="Anggota-section col-lg-10 m-auto"  data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
-            <div className='cardPI'>
+            <div className='col-sm-12 col-lg-4 ketua'>
                 <img src ={presidium2020} alt="img"/>
             </div>
-            <div className='cardPI'>
+            <div className='col-sm-12 col-lg-4 wakil'>
                 <img src ={presidium2021} alt="img" />
             </div>
-            <div className='cardPI'>
+            <div className='col-sm-12 col-lg-4 wakil'>
                 <img src ={presidium2022} alt="img" />
             </div>
             </div>
+            
             <div className="Anggota-section col-lg-10 m-auto mt-4"  data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">            
-                <div className='cardPI'>
-                    <img src ={bendahara1} alt="img" />
-                </div>
-                <div className='cardPI'>
-                    <img src ={bendahara2} alt="img" />
-                </div>
-                <div className='cardPI'>
+                <div className='flex-wrap col-sm-12 col-lg-3 anggota'>
                     <img src ={sekertaris1} alt="img" />
                 </div>
-                <div className='cardPI'>
+                <div className='flex-wrap col-sm-12 col-lg-3 anggota'>
                     <img src ={sekertaris2} alt="img" />
+                </div>
+                <div className='flex-wrap col-sm-12 col-lg-3 anggota'>
+                    <img src ={bendahara1} alt="img" />
+                </div>
+                <div className='flex-wrap col-sm-12 col-lg-3 anggota'>
+                    <img src ={bendahara2} alt="img" />
                 </div>
             </div>
             <div className='col-lg-10 m-auto mt-4 py-4'>
