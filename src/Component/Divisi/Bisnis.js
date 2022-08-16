@@ -24,6 +24,11 @@ const Bisnis = () => {
             <p className='text-left bisnisdescription'>
             Divisi Ekonomi & Bisnis merupakan bagian dari Divisi KARIB (Keluarga Remaja Islam BSD) yang bergerak dan menciptakan kegiatan usaha melalui penjualan produk, marketing, serta edukasi mengenai bisnis. Tujuan dari Divisi Ekonomi dan Bisnis yaitu untuk mengembangkan nilai jual suatu produk/merk yang dimiliki oleh KARIB, dan membantu keuangan untuk kegiatan Dakwah KARIB.
             </p>
+            
+           <div className='text-center'>
+               <h3>Anggota</h3>
+                <p>Kenalan dulu yuk sama anggota-anggota nya Divisi Bisnis KARIB</p>
+           </div>
             <div className="Anggota-section col-lg-10 m-auto"  data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
             <div className='col-sm-12 col-lg-4 ketua'>
                 <img src ={ketua} alt="img"/>

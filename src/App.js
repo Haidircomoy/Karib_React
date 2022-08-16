@@ -1,4 +1,3 @@
-import {Container, Row, Col} from 'react-bootstrap'
 import './App.css';
 import Navbar from './Component/Navigationbar'
 import "./Style/landingPage.css"
@@ -17,6 +16,8 @@ import ScrollToTop from './Component/scrolltoTop'
 import { useEffect } from 'react';
 import PI from './Component/Divisi/Pi'
 import Bisnis from './Component/Divisi/Bisnis'
+import Mediv from './Component/Divisi/Media'
+import Psdm from './Component/Divisi/Psdm'
 
 const App = () => {
   useEffect(()=>{
@@ -81,6 +82,14 @@ const App = () => {
         <div id="Bisnis">
             <h1 className='text-center'>Bisnis</h1>
             <Bisnis />
+        </div>
+        <div id='Media'>
+            <h1 className='text-center'>Media</h1>
+            <Mediv />
+        </div>
+        <div id='PSDM'>
+            <h1 className='text-center'>PSDM</h1>
+            <Psdm />
         </div>
         <ScrollToTop />
       </div>
