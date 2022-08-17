@@ -39,8 +39,12 @@ const App = () => {
         <div id='tentangkami'>
             <h1 className='text-center'>Tentang Kami</h1>
             <div className='col-lg-10 m-auto py-4' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
-              <TentangKami tentang1="KARIB adalah organisasi yang memiliki kepanjangan - KELUARGA REMAJA ISLAM BSD, FORUM MASJID DAN MUSHOLLA SE-BSD, yang selanjutnya disebut KARIB FMMB" 
-              tentang2="KARIB FMMB didirikan pada 10 April 2011, yang berkedudukan dibawah asuhan FMMB khususnya Seksi Pemuda, Olahraga, dan Seni. KARIB FFMB berAsaskan Aqidah Ahlusunnah Wal Jamaah, yang bersifat kekeluargaan dan persaudaraan."/>
+              <TentangKami tentang1="KARIB atau disebut juga Keluarga Remaja Islam BSD adalah forum remaja muslim yang berdomisili di BSD, Serpong, Tangerang Selatan dan merupakan forum dakwah remaja islam yang menginduk kepada Forum Masjid Musala BSD dan sekitarnya ." 
+              tentang2="FMMB sendiri merupakan wadah dari masjid dan Musala se-BSD yg tergabung di dalamnya selitar 70 Masjid dan Musala ."
+              tentang3='KARIB - FMMB memiliki visi yang sejalan dengan Forum Masjid Musala BSD dan sekitarnya, yaitu mewujudkan BSD atau Tangerang Selatan menjadi Kota Santri.'
+              tentang4='Dengan berlandaskan kepada Al Quran kariim dan dengan semangat ukhuwah islamiyah, KARIB - FMMB senantiasa hadir dalam perjuangan dakwah remaja islam di Tangerang Selatan pada umumnya,  khususnya di wilayah BSD dan sekitarnya .'
+              />
+
             </div>
             <div className='d-flex flex-wrap justify-content-center col-12'>
               <div className='col-sm-12 col-md-6 col-lg-4 ' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
@@ -64,7 +68,7 @@ const App = () => {
                 misi1="Mensyiarkan Islam dikalangan umat Islam dan remaja/ pemuda pada khususnya."
                 misi2="Menjalin rasa kekeluargaan antar sesama anggota dan bekerja sama dengan organisasi lain."
                 misi3="Membina dan meningkatkan peran umat Islam dalam kegiatan sosial kemasyarakatan menuju masyarakat Islami"
-                misi4="KARIB-FMMB sejalan dengan tujuan dari Forum Masjid Musholla BSD dan sekitarnya, yaitu bertujuan menciptakan masyarakat BSD Kota Santri. SANTRI = pelajar yang ber-aqidah Ahlusunnah Wal Jamaah."
+                misi4="KARIB-FMMB sejalan dengan tujuan dari Forum Masjid Musala BSD dan sekitarnya, yaitu bertujuan menciptakan masyarakat BSD Kota Santri. SANTRI adalah pelajar yang ber-aqidah Ahlusunnah Wal Jamaah."
               />
             </div>
         </div>
