@@ -60,7 +60,7 @@ const Media = () => {
             <div className='Proker col-lg-10 m-auto' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
                 <h3 className='text-center mt-4'>Program Kerja</h3>
                 
-                <div className='d-flex justify-content-center flex-wrap'>   
+                <div className='Anggota-section flex-wrap'>   
                     <div className='mt-4 col-sm-12 col-lg-6'>
                         <CP title='Publikasi Kegiatan Karib'
                         desc='Publikasi Kegiatan KARIB, bersifat Karib to Jamaah Divisi Media dan Komunikasi berperan sebagai pembantu kegiatan. Kegiatan dalam program ini dapat dibagi menjadi 4, yaitu:'
@@ -70,16 +70,16 @@ const Media = () => {
                         misi4='Post Event.'/>
                     </div>
                     <div className='mt-4 col-sm-12 col-lg-6'>
+                        <CP2 title='Upgrading'
+                        desc='Upgrading, bersifat "Divisi Media dan Komunikasi to KARIB". Divisi Media dan Komunikasi berperan sebagai pelaksana kegiatan. Program ini bersifat Workshop offline, yang bertujuan untuk meningkatkan kemampuan khususnya para anggota Divisi Media dan Komunikasi, dan umumnya seluruh anggota KARIB.' />
+                    </div>
+                    <div className='mt-4 col-sm-12 col-lg-6'>
                         <CP title='Dawah Digital'
                         desc='Dawah Digital, bersifat "Divisi Media dan Komunikasi to Jamaah. Divisi Media dan Komunikasi berperan sebagai pelaksana kegiatan melalui platform media sosial. Kegiatan dalam program ini meliputi 4 bagian, yaitu:'
                         misi1='Instagram.'
                         misi2='Youtube.'
                         misi3='Whatsapp.'
                         misi4='Facebook.'/>
-                    </div>
-                    <div className='mt-4 col-sm-12 col-lg-6'>
-                        <CP2 title='Upgrading'
-                        desc='Upgrading, bersifat "Divisi Media dan Komunikasi to KARIB". Divisi Media dan Komunikasi berperan sebagai pelaksana kegiatan. Program ini bersifat Workshop offline, yang bertujuan untuk meningkatkan kemampuan khususnya para anggota Divisi Media dan Komunikasi, dan umumnya seluruh anggota KARIB.' />
                     </div>
                 </div>
             </div>
@@ -124,9 +124,11 @@ const Media = () => {
                             <div className="row">
                                 <div>
                                     <div className="card card-proker">
-                                    <h3 className='text-center'>Team Coppywriting</h3>
+                                    <h3 className='text-center'>Team Sosial Media</h3>
                                     <ul>
-                                        <li>Yuliani Nursakinah</li>
+                                        <li>Jamal Prayoga</li>
+                                        <li>Andi Muladi</li>
+                                        <li>Arifin Nur Masigit</li>
                                     </ul>
                                     </div>
                                 </div>
@@ -138,11 +140,9 @@ const Media = () => {
                             <div className="row">
                                 <div>
                                     <div className="card card-proker">
-                                    <h3 className='text-center'>Team Sosial Media</h3>
+                                    <h3 className='text-center'>Team Coppywriting</h3>
                                     <ul>
-                                        <li>Jamal Prayoga</li>
-                                        <li>Andi Muladi</li>
-                                        <li>Arifin Nur Masigit</li>
+                                        <li>Yuliani Nursakinah</li>
                                     </ul>
                                     </div>
                                 </div>

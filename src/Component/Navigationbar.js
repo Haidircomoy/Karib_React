@@ -9,7 +9,7 @@ const Navigationbar = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" className='bg-navbar'>
             <Container>
-            <img src={KaribLogo} alt='' className='Logo'/>
+            <Nav.Link href="/"><img src={KaribLogo} alt='' className='Logo'/></Nav.Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav >

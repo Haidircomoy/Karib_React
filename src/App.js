@@ -18,6 +18,9 @@ import PI from './Component/Divisi/Pi'
 import Bisnis from './Component/Divisi/Bisnis'
 import Mediv from './Component/Divisi/Media'
 import Psdm from './Component/Divisi/Psdm'
+import Sosial from './Component/Divisi/Sosial'
+import Syiar from './Component/Divisi/Syiar'
+import Hub from './Component/hubungiKami'
 
 const App = () => {
   useEffect(()=>{
@@ -90,6 +93,21 @@ const App = () => {
         <div id='PSDM'>
             <h1 className='text-center'>PSDM</h1>
             <Psdm />
+        </div>
+        <div id='Sosial'>
+            <h1 className='text-center'>Sosial</h1>
+            <Sosial />
+        </div>
+        <div id='Syiar'>
+            <h1 className='text-center'>Syiar</h1>
+            <Syiar />
+        </div>
+        <div id='hubungikami'>
+            <h1 className='text-center'>Hubungi Kami</h1>
+            <Hub />
+        </div>
+        <div className='mt-4 text-center text-small'>
+          <p>KARIB Official - Tangerang Selatan BSD</p>
         </div>
         <ScrollToTop />
       </div>
